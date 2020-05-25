@@ -16,6 +16,15 @@ th, td {
   padding: 20px;
 }
 
+#toggleRead {
+    border: none;
+    border-radius: 5px;
+}
+
+#toggleRead {
+    padding: 10px
+}
+
 #removeBtn {
     background:url(./images/delete.png) no-repeat;
     cursor: pointer;
@@ -44,7 +53,7 @@ th, td {
     position: fixed;
     bottom: 85px;
     right: 28px;
-    border: 5px solid #f1f1f1;
+    border: 5px solid #dadada;
     z-index: 9;
     border-radius: 10px;
   }
