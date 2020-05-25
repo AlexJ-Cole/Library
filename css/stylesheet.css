@@ -1,0 +1,117 @@
+input{box-sizing:border-box} 
+
+#main {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+}
+
+#myTable {
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 2px;
+}
+
+th, td {
+  padding: 20px;
+}
+
+#removeBtn {
+    background:url(./images/delete.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    width: 40px;
+    height: 40px;
+}
+
+#openTheForm {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    font-size: 16px;
+  }
+  
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 85px;
+    right: 28px;
+    border: 5px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 10px;
+  }
+  
+  #form-container h1 {
+    margin-top: -5px;
+  }
+
+  #form-container {
+    max-width: 500px;
+    padding: 20px 25px 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  #form-container input[type=text], #form-container input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  #form-container input[type=text]:focus, #form-container input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  #form-container p {
+    text-align: center;
+  }
+
+  #form-container input[type=checkbox] {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #form-container .btn {
+    background-color: rgb(90, 211, 94);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    margin-left: 0;
+  }
+  
+  #form-container .btn-close {
+    background-color: rgb(250, 114, 114);
+    border: none;
+    border-radius: 10px;
+    float: right;
+    margin-top: -5px;
+    margin-right: -10px;
+  }
+  
+  #form-container .btn:hover, #openTheForm:hover {
+    opacity: 1;
+  }
